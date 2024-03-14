@@ -34,7 +34,7 @@ export class ConvertidorMaldjComponent implements OnInit {
           break;
         case 'EUR':
           if (this.quiero === 'USD') {
-            this.total = this.cantidad * 1.10;
+            this.total = this.cantidad * 1.09;
           }
           if (this.quiero === 'EUR') {
             this.total = this.cantidad; 
@@ -45,13 +45,13 @@ export class ConvertidorMaldjComponent implements OnInit {
           break;
         case 'LIBRA':
           if (this.quiero === 'USD') {
-            this.total = this.cantidad * 1.10;
+            this.total = this.cantidad * 1.28;
           }
           if (this.quiero === 'EUR') {
-            this.total = this.cantidad; 
+            this.total = this.cantidad * 1.17; 
           }
           if (this.quiero === 'LIBRA') {
-            this.total = this.cantidad * 1.17; 
+            this.total = this.cantidad; 
           }
           break;
     }
