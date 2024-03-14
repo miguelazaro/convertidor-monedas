@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    /* background-image: url("./assets/img/perro.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/united-arab-emirates-dubai-reflection-on-midnight-4k-ultra-hd-desktop-wallpapers-for-computers-laptop-tablet-and-mobile-phones-3840×2400-wallpaper-preview.jpg");
+    background-position: center;
+    
+    background-size: cover;
+    height: 100vh;
+    
+}
